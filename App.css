@@ -1,0 +1,60 @@
+.body {
+  background-color: #cdb693;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  color: rgba(144, 67, 45)
+}
+
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 3px solid rgba(144, 67, 45, 0.25);
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 3px solid rgba(144, 67, 45, 0.25);
+}
+
+.card {
+  border: 3px solid rgba(144, 67, 45, 0.4);
+  border-radius: 5px;
+  background-color: #e2d7c6;
+}
+
+.star-shadow {
+  text-shadow: 2px 2px 4px rgba(144, 67, 45, 0.6);
+}
+
+.btn-terr {
+    color: #fff;
+    background-color: #ab6845;
+    border-color: #ab6845;
+}
+
+.btn-terr:hover {
+    color: #fff;
+    background-color: #90432d;
+    border-color: rgb(144, 67, 45);
+}
+
+.form-control {
+  background-color: rgb(226, 215, 198);
+  border: 3px solid rgba(144, 67, 45, 0.25);
+}
+
+.form-control:focus {
+  background-color: rgb(232, 227, 219);
+  border: 3px solid rgba(144, 67, 45, 0.25);
+  box-shadow: unset /*0 0 0 0.25rem rgb(13 110 253 / 25%)*/;
+}
+
+.btn:focus {
+  box-shadow: unset;
+}
+
